@@ -7,8 +7,8 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #252B42;
+  font-family: Montserrat, sans-serif;
+  background-color: #252b42;
   color: #fff;
 }
 
@@ -76,7 +76,7 @@ body {
   gap: 1.5rem;
   border: none;
   border-radius: 0.5rem;
-  background-color: #23A6F0;
+  background-color: #23a6f0;
   color: #fff;
 }
 
