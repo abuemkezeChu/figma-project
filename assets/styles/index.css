@@ -116,3 +116,57 @@ body {
   background-color: inherit;
   border: 0.1rem solid #fff;
 }
+
+.features {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 15rem;
+}
+
+.feature-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 5rem 2rem 0;
+}
+
+.feature-heading > h2 {
+  font-size: 2.5rem;
+}
+
+.feature-heading > p {
+  font-size: 0.8rem;
+}
+
+.row-cards {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #fff;
+  color: #737373;
+  width: 32.8rem;
+  font-size: 1.4rem;
+}
+
+.icn-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7.6rem;
+  height: 7.6rem;
+  border-radius: 100%;
+  background-color: #23a6f0;
+}
