@@ -137,3 +137,92 @@ body {
 .image > img {
   max-width: 45rem;
 }
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 82rem;
+  margin: 0 auto;
+  padding: 5rem 8.5rem;
+  gap: 2.5rem;
+}
+
+.features-text-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 65rem;
+  align-items: flex-start;
+}
+
+.features-text-row {
+  display: flex;
+  max-width: 30rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.features-main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.features-main-content > h2,
+.testimonial-text-container > h2 {
+  font-size: 2.5rem;
+}
+
+.features-main-content > p,
+.testimonial-text-container > p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1rem;
+  display: inline-block;
+}
+
+.features-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.features-cards-row-1,
+.features-cards-row-2 {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.features-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18.5rem;
+  background-color: #fff;
+  color: black;
+  gap: 2.2rem;
+}
+
+.feature-card-content {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+.features-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 4.2rem;
+  max-height: 4.2rem;
+  background-color: #23a6f0;
+  padding: 1.5rem;
+  border-radius: 100%;
+}
+
+.feature-title {
+  color: #737373;
+  font-size: 1rem;
+}
