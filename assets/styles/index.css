@@ -489,7 +489,6 @@ body {
 .container-row {
   display: flex;
   align-items: center;
-  /* justify-content: flex-start; */
   margin: 0 auto;
   gap: 14rem;
 }
@@ -513,8 +512,6 @@ body {
   justify-content: flex-start;
   align-items: center;
   border-radius: 0.4rem;
-
-  
 }
 
 .input {
@@ -533,13 +530,12 @@ body {
   border: none;
   border-radius:  0 0.4rem 0.4rem 0; 
   background-color: #23a6f0;
-  color: #fff;
+  color:#fff;
 }
 
 .footer-links {
   display: flex;
   justify-content: center;
-
   gap: 5rem;
 }
 
