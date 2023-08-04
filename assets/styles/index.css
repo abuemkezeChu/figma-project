@@ -74,7 +74,10 @@ body {
   gap: 2rem;
 }
 
-.btn {
+.btn-1,
+.btn-2,
+.btn-3,
+.btn-4 {
   display: inline-flex;
   background-color: #23a6f0;
   padding: 0.9375rem 1.5625rem;
@@ -84,7 +87,10 @@ body {
   border-radius: 0.3rem;
 }
 
-.btn:hover {
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover,
+.btn-4:hover {
   background-color: #2a7cc7;
   cursor: pointer;
 }
@@ -131,7 +137,10 @@ body {
   gap: 0.5rem;
 }
 
-.btn-round {
+.btn-round-1,
+.btn-round-2,
+.btn-round-3,
+.btn-round-4 {
   border-radius: 2rem;
 }
 
