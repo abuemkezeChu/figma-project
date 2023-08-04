@@ -341,7 +341,15 @@ body {
   gap: 1.8rem;
 }
 
-.faq-card {
+.faq-card-1,
+.faq-card-2,
+.faq-card-3,
+.faq-card-4,
+.faq-card-5,
+.faq-card-6,
+.faq-card-7,
+.faq-card-8,
+.faq-card-9 {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
@@ -351,24 +359,48 @@ body {
   background-color: #fff;
 }
 
-.faq-cards-row {
+.faq-cards-row{
   display: flex;
   align-items: center;
   gap: 1.8rem;
 }
 
-.faq-card-text {
+.faq-card-text-1,
+.faq-card-text-2,
+.faq-card-text-3,
+.faq-card-text-4,
+.faq-card-text-5,
+.faq-card-text-6,
+.faq-card-text-7,
+.faq-card-text-8,
+.faq-card-text-9 {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
 
-.faq-card-text > h5 {
+.faq-card-text-1 > h5,
+.faq-card-text-2 > h5,
+.faq-card-text-3 > h5,
+.faq-card-text-4 > h5,
+.faq-card-text-5 > h5,
+.faq-card-text-6 > h5,
+.faq-card-text-7 > h5,
+.faq-card-text-8 > h5,
+.faq-card-text-9 > h5 {
   font-size: 1rem;
   color: #252b42;
 }
 
-.faq-card-text > h6 {
+.faq-card-text-1 > h6,
+.faq-card-text-2 > h6,
+.faq-card-text-3 > h6,
+.faq-card-text-4 > h6,
+.faq-card-text-5 > h6,
+.faq-card-text-6 > h6,
+.faq-card-text-7 > h6,
+.faq-card-text-8 > h6,
+.faq-card-text-9 > h6 {
   color: #737373;
 }
 
@@ -528,9 +560,9 @@ body {
   height: 100%;
   width: 25%;
   border: none;
-  border-radius:  0 0.4rem 0.4rem 0; 
+  border-radius: 0 0.4rem 0.4rem 0;
   background-color: #23a6f0;
-  color:#fff;
+  color: #fff;
 }
 
 .footer-links {
