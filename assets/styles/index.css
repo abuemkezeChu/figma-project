@@ -40,6 +40,7 @@ body {
   align-items: center;
   padding: 0.2rem 0;
   gap: 14rem;
+  width: 100%;
 }
 
 .nav-links {
@@ -100,7 +101,8 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 2rem;
-  max-width: 35rem;
+  /* max-width: 35rem; */
+  width: 35%;
 }
 
 .header-text-content > h1 {
@@ -132,10 +134,12 @@ body {
 .image {
   display: flex;
   align-items: center;
+  max-width: 45rem;
 }
 
 .image > img {
-  max-width: 45rem;
+  width: 100%;
+  height: auto;
 }
 
 .features-container {
@@ -169,13 +173,15 @@ body {
 
 .features-main-content > h2,
 .testimonial-text-container > h2,
-.faq-text-container > h2 {
+.faq-text-container > h2,
+.pricing-text-container > h2 {
   font-size: 2.5rem;
 }
 
 .features-main-content > p,
 .testimonial-text-container > p,
-.faq-text-container > p {
+.faq-text-container > p,
+.pricing-text-container > p {
   font-size: 0.8rem;
   font-weight: 500;
   line-height: 1rem;
@@ -241,7 +247,8 @@ body {
 }
 
 .testimonial-text-container,
-.faq-text-container {
+.faq-text-container,
+.pricing-text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -250,7 +257,9 @@ body {
   gap: 0.6rem;
 }
 
-.testimonial-text-container > p {
+.testimonial-text-container > p,
+.faq-text-container > p,
+.pricing-text-container > p {
   text-align: center;
   display: inline;
 }
@@ -303,21 +312,22 @@ body {
   gap: 2.5rem;
 }
 
-.faq-text-container > p {
+/* .faq-text-container > p {
   text-align: center;
-}
+} */
 
 .faq-card-container {
   display: flex;
   flex-direction: column;
   gap: 1.8rem;
+  /* padding-right: 10rem; */
 }
 
 .faq-card {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  width: 18.5rem;
+  max-width: 18.5rem;
   padding: 1.5rem;
   border-radius: 0.5rem;
   background-color: #fff;
@@ -342,4 +352,115 @@ body {
 
 .faq-card-text > h6 {
   color: #737373;
+}
+
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 82rem;
+  margin: 0 auto;
+  padding: 10rem 8.5rem;
+  gap: 2.5rem;
+}
+
+.pricing-cards-container {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+  background-color: #fff;
+  padding: 3rem 2.8rem;
+  border-radius: 0.6rem;
+  border: 1px solid #23a6f0;
+  max-width: 18rem;
+}
+
+.pricing-card > h3 {
+  font-size: 1.5rem;
+  color: #252b42;
+}
+
+.pricing-card > h5 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: #737373;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #23a6f0;
+}
+
+.price > h2 {
+  font-size: 2.5rem;
+}
+
+.billing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.feature-item > h6 {
+  color: #252b42;
+}
+
+.standard {
+  background-color: #23a6f0;
+  margin-top: -2rem;
+}
+
+.standard > .price,
+.standard > h3,
+.standard > h5 {
+  color: #fff;
+}
+
+.text {
+  color: orange;
+}
+
+.pricing-container {
+  gap: 10rem;
+}
+
+.pricing-card > button {
+  padding: 1rem 4rem;
+}
+
+.standard > button {
+  background-color: #fff;
+}
+
+.btn-text-standard {
+  color: #23a6f0;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.item-standard > h6 {
+  color: #fff;
 }
