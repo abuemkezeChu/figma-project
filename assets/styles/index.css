@@ -101,7 +101,6 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 2rem;
-  /* max-width: 35rem; */
   width: 35%;
 }
 
@@ -312,15 +311,10 @@ body {
   gap: 2.5rem;
 }
 
-/* .faq-text-container > p {
-  text-align: center;
-} */
-
 .faq-card-container {
   display: flex;
   flex-direction: column;
   gap: 1.8rem;
-  /* padding-right: 10rem; */
 }
 
 .faq-card {
@@ -362,7 +356,7 @@ body {
   max-width: 82rem;
   margin: 0 auto;
   padding: 10rem 8.5rem;
-  gap: 2.5rem;
+  gap: 10rem;
 }
 
 .pricing-cards-container {
@@ -441,10 +435,6 @@ body {
 
 .text {
   color: orange;
-}
-
-.pricing-container {
-  gap: 10rem;
 }
 
 .pricing-card > button {
