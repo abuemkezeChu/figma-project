@@ -14,6 +14,15 @@ body {
   color: #fff;
 }
 
+.main-container {
+  max-width: 90rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .nav-container {
   display: flex;
   max-width: 82rem;
@@ -200,7 +209,12 @@ body {
   gap: 1.8rem;
 }
 
-.features-card {
+.features-card-1,
+.features-card-2,
+.features-card-3,
+.features-card-4,
+.features-card-5,
+.features-card-6 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -210,7 +224,12 @@ body {
   gap: 2.2rem;
 }
 
-.feature-card-content {
+.feature-card-content-1,
+.feature-card-content-2,
+.feature-card-content-3,
+.feature-card-content-4,
+.feature-card-content-5,
+.feature-card-content-6 {
   display: flex;
   align-items: center;
   width: 75%;
@@ -218,7 +237,12 @@ body {
   gap: 1rem;
 }
 
-.features-card-icon {
+.features-card-icon-1,
+.features-card-icon-2,
+.features-card-icon-3,
+.features-card-icon-4,
+.features-card-icon-5,
+.features-card-icon-6 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -453,4 +477,106 @@ body {
 
 .item-standard > h6 {
   color: #fff;
+}
+
+.contact-container {
+  display: flex;
+  max-width: 82rem;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+}
+
+.container-row {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start; */
+  margin: 0 auto;
+  gap: 14rem;
+}
+
+.col-1 {
+  max-width: 26rem;
+}
+
+.col-1 > h2 {
+  font-size: 2.5rem;
+}
+
+.col-1 > p {
+  font-size: 0.8rem;
+}
+
+.form-group {
+  width: 24rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 0.4rem;
+
+  
+}
+
+.input {
+  width: 75%;
+  height: 100%;
+  border: none;
+  border-radius: 0.4rem 0 0 0.4rem;
+  padding: 0 0 0 1rem;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+  border: none;
+  border-radius:  0 0.4rem 0.4rem 0; 
+  background-color: #23a6f0;
+  color: #fff;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+
+  gap: 5rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.get-in-touch {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 10rem;
+}
+
+.get-in-touch > h3 {
+  font-size: 1.5rem;
+}
+
+.get-in-touch > p {
+  font-size: 0.8rem;
+}
+
+.company-info,
+.features,
+.resources {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.copyright {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff;
+  color: #737373;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
