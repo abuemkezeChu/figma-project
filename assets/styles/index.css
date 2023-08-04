@@ -125,7 +125,8 @@ body {
   max-width: 20rem;
 }
 
-.cta {
+.cta-1,
+.cta-2 {
   display: flex;
   gap: 0.5rem;
 }
@@ -361,7 +362,7 @@ body {
 
 .faq-cards-row-1,
 .faq-cards-row-2,
-.faq-cards-row-3{
+.faq-cards-row-3 {
   display: flex;
   align-items: center;
   gap: 1.8rem;
