@@ -359,7 +359,9 @@ body {
   background-color: #fff;
 }
 
-.faq-cards-row{
+.faq-cards-row-1,
+.faq-cards-row-2,
+.faq-cards-row-3{
   display: flex;
   align-items: center;
   gap: 1.8rem;
@@ -468,13 +470,41 @@ body {
   gap: 0.8rem;
 }
 
-.feature-item {
+.feature-item-1,
+.feature-item-2,
+.feature-item-3,
+.feature-item-4,
+.feature-item-5,
+.feature-item-6,
+.feature-item-7,
+.feature-item-8,
+.feature-item-9,
+.feature-item-10,
+.feature-item-11,
+.feature-item-12,
+.feature-item-13,
+.feature-item-14,
+.feature-item-15 {
   display: flex;
   align-items: center;
   gap: 0.6rem;
 }
 
-.feature-item > h6 {
+.feature-item-1 > h6,
+.feature-item-2 > h6,
+.feature-item-3 > h6,
+.feature-item-4 > h6,
+.feature-item-5 > h6,
+.feature-item-6 > h6,
+.feature-item-7 > h6,
+.feature-item-8 > h6,
+.feature-item-9 > h6,
+.feature-item-10 > h6,
+.feature-item-11 > h6,
+.feature-item-12 > h6,
+.feature-item-13 > h6,
+.feature-item-14 > h6,
+.feature-item-15 > h6 {
   color: #252b42;
 }
 
