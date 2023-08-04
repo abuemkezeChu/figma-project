@@ -168,12 +168,14 @@ body {
 }
 
 .features-main-content > h2,
-.testimonial-text-container > h2 {
+.testimonial-text-container > h2,
+.faq-text-container > h2 {
   font-size: 2.5rem;
 }
 
 .features-main-content > p,
-.testimonial-text-container > p {
+.testimonial-text-container > p,
+.faq-text-container > p {
   font-size: 0.8rem;
   font-weight: 500;
   line-height: 1rem;
@@ -234,11 +236,12 @@ body {
   align-items: center;
   max-width: 82rem;
   margin: 0 auto;
-  padding: 5rem 8.5rem;
+  padding: 10rem 8.5rem;
   gap: 2.5rem;
 }
 
-.testimonial-text-container {
+.testimonial-text-container,
+.faq-text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -258,6 +261,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 2.5rem 10rem;
+  border-radius: 0.2rem;
   gap: 1.5rem;
   max-width: 46rem;
   background-color: #fff;
@@ -280,10 +284,62 @@ body {
 }
 
 .user-credential > h3 {
-  color: #252B42;
+  color: #252b42;
 }
 
 .testimonial-card-content > p {
   font-size: 0.8rem;
   text-align: center;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 82rem;
+  margin: 0 auto;
+  padding: 10rem 8.5rem;
+  gap: 2.5rem;
+}
+
+.faq-text-container > p {
+  text-align: center;
+}
+
+.faq-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.faq-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 18.5rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.faq-cards-row {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.faq-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.faq-card-text > h5 {
+  font-size: 1rem;
+  color: #252b42;
+}
+
+.faq-card-text > h6 {
+  color: #737373;
 }
